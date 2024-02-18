@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LearnBromoAirlines1.Cust;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -64,8 +65,10 @@ namespace LearnBromoAirlines1
                         }
                         else
                         {
-                            UserForm userForm = new UserForm();
-                            userForm.Show();
+                            string namaCust = rd["Nama"].ToString();
+                            CustomerMainForm custForm = new CustomerMainForm();
+                            custForm.SetNamaCust(namaCust);
+                            custForm.Show();
                             this.Hide();
                         }
                     }

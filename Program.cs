@@ -18,7 +18,7 @@ namespace LearnBromoAirlines1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BeliTiket());
+            Application.Run(new Login());
         }
     }
 }
