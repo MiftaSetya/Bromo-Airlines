@@ -88,6 +88,12 @@
     <Compile Include="Cust\ListPenerbangan.Designer.cs">
       <DependentUpon>ListPenerbangan.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cust\TiketSaya.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cust\TiketSaya.Designer.cs">
+      <DependentUpon>TiketSaya.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dashboard\DashboardAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -142,6 +148,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Cust\ListPenerbangan.resx">
       <DependentUpon>ListPenerbangan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cust\TiketSaya.resx">
+      <DependentUpon>TiketSaya.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard\DashboardAdmin.resx">
       <DependentUpon>DashboardAdmin.cs</DependentUpon>
@@ -231,6 +240,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\right-arrow-regular-721.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar-unselected-72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time-five-regular-72.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group-regular-72.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

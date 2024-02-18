@@ -83,6 +83,16 @@ namespace LearnBromoAirlines1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap calendar_unselected_72 {
+            get {
+                object obj = ResourceManager.GetObject("calendar-unselected-72", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap chevron_left_solid_72 {
             get {
                 object obj = ResourceManager.GetObject("chevron-left-solid-72", resourceCulture);
@@ -96,6 +106,16 @@ namespace LearnBromoAirlines1.Properties {
         internal static System.Drawing.Bitmap circle_solid_72 {
             get {
                 object obj = ResourceManager.GetObject("circle-solid-72", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap group_regular_72 {
+            get {
+                object obj = ResourceManager.GetObject("group-regular-72", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -226,6 +246,16 @@ namespace LearnBromoAirlines1.Properties {
         internal static System.Drawing.Bitmap right_arrow_regular_721 {
             get {
                 object obj = ResourceManager.GetObject("right-arrow-regular-721", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap time_five_regular_72 {
+            get {
+                object obj = ResourceManager.GetObject("time-five-regular-72", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
